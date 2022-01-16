@@ -1,0 +1,98 @@
+/* header starts */
+header{
+    width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+    background-color: tomato;
+}
+.header{
+	display: flex;
+	justify-content:space-between;
+	width: 100%;
+	margin: auto;
+	padding: 30px;
+	flex-direction:row;
+}
+.fonts {
+    font-family:'Dancing Script';
+    font-size: 35px;
+    color: rgb(60, 60, 60);
+}
+
+.nav-bar{
+	display: none;
+}
+
+
+ul{
+	display:flex;
+    justify-content: flex-end;
+	justify-content: space-between;
+	width: 900px;
+    align-items: center;
+
+
+}
+.navigation-text{
+    font-size: 15px;
+    color: black;
+}
+
+/* section 1 */
+.section1{
+    margin-top: 90px;
+    background-image: url(../images/main.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-h2{
+    font-size: 50px;
+    margin-bottom: 80px;
+    color: rgb(107, 172, 64);
+}
+/* section 2 */
+.section2{
+	margin-top: 60px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+}
+
+h4{
+	font-size: 15px;
+	color: #52521d;
+}
+
+.s2-h2{
+	font-size: 21px;
+	color: black;
+	margin-top: 5px;
+}
+
+.s2-p{
+	font-size: 16px;
+	color: #52521d;
+	margin-top: 15px;
+}
+
+.card{
+	width: 280px;
+	height: 300px;
+}
