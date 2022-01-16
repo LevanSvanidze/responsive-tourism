@@ -6,6 +6,9 @@
 */
 
 /* global */
+body{
+    background-color: grey;
+}
 .container-header{
     display: flex;
     margin-right: 100px;
@@ -92,7 +95,10 @@
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
+.centered{
+    color: hotpink;
+    margin-bottom: 100px;
+}
 .s-1 > h2 {
     font-size: 50px;
     margin-bottom: 80px;

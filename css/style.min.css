@@ -1,3 +1,6 @@
+body{
+    background-color: grey;
+}
 .container {
     max-width: 1170px;
     width: 100%;
@@ -53,7 +56,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0.329);
     height: 600px;
     width: 100%;
     margin-top: 100px;
@@ -74,12 +77,14 @@
 
 .s-1 > h2 {
     font-size: 50px;
-    margin-bottom: 80px;
-    color: #fff
+    margin-bottom: 100px;
+    color: rgb(0, 0, 0);
 }
 
 .s-1 > p {
-    color: #fff
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+
 }
 
 .s2-wrapper {
