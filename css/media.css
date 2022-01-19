@@ -26,7 +26,6 @@
     }
 }
 
-
 @media (max-width:767px) {
     .nav > ul {
         display: none;
@@ -47,5 +46,13 @@
     .s-1{
         width: 95%;
         margin: 10px;
+    }
+    .centered > h2 {
+        font-size: 20px;
+    }
+
+    .centered > p {
+        font-size: 15px;
+        
     }
 }
